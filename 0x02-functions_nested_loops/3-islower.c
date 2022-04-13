@@ -2,7 +2,8 @@
 
 /**
  * main -check the code.
- * Description: Checks for lowercase character.
+ * _islower - Checks for lowercase character.
+ * @c: The character to be checked
  * Return: 1 if c is lowercase
  * Return: 0
  */
