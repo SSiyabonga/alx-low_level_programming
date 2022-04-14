@@ -15,7 +15,6 @@ i = 0;
 
 /* while (i < 10)
  * {
- * Infinite loop - No inrease of variable
  * putchar(i);
  * } */
 
