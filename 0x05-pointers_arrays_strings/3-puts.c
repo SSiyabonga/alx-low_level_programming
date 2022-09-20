@@ -2,7 +2,7 @@
 
 /**
 * _puts - printing strings.
-* 
+*
 * Return: Always 0.
 *
 */
