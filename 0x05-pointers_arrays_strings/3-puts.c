@@ -2,7 +2,7 @@
 
 /**
 * _puts - printing strings.
-*
+* @str: string to be tested
 * Return: Always 0.
 *
 */
