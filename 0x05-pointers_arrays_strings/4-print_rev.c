@@ -20,4 +20,6 @@ n = i - 1;
 	{
 	_putchar(s[n]);
 	}
+_putchar('\n');
+return;
 }
