@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
-* print_rev - a functions that prints strings in reverse
+* print_rev - prints strings in reverse
 * @i: counting variable
 * @n: printing variable
 * Return: Always 0
