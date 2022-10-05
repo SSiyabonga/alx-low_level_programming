@@ -1,0 +1,1 @@
+arguments to main, these are arguments psaaed to the main function when you run the program. there are two types of these arguments which are argc which is the number of arguments passed to main, argv which is an array of arguments passed to the main function
