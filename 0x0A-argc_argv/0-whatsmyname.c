@@ -1,7 +1,16 @@
 #include "main.h"
 #include <stdio.h>
-int main (int argc, char* argv[])
+
+/**
+* main - the function that prints the name of the program.
+* @agrc: the argument count.
+* @agrv: the vector array of arguments.
+*
+* Return: 0
+*/
+
+int main (int agrc, char *agrv[])
 {
-	printf("%s\n", argv[0]);
+	printf("%s\n", agrv[0]);
 	return (0);
 }
