@@ -15,9 +15,13 @@ int main(void)
 	{
 		n3 = n2 + n1;
 		n1 = n2;
-		printf("%lu, ", n3);
+		printf("%lu", n3);
 		n2 = n3;
 		c++;
+		if (c < 50)
+		{
+			printf(", ");
+		}
 	}
 	printf("\n");
 	return (0);
