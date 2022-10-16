@@ -11,14 +11,14 @@ int main(void)
 {
 	unsigned long n1 = 0, n2 = 1, n3, c = 0;
 
-	while (c < 98)
+	while (c < 99)
 	{
 		n3 = n2 + n1;
 		n1 = n2;
 		printf("%lu", n3);
 		n2 = n3;
 		c++;
-		if (c < 98)
+		if (c < 99)
 		{
 			printf(", ");
 		}
