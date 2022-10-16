@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int n1 = 0, n2 = 1, n3,c = 0;
+	int n1 = 0, n2 = 1, n3, c = 0;
 
 	while (c <= 50)
 	{
@@ -20,4 +20,5 @@ int main(void)
 		c++;
 	}
 	printf("\n");
+	return (0);
 }
