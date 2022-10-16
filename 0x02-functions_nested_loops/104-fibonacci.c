@@ -18,7 +18,7 @@ int main(void)
 		printf("%lu", n3);
 		n2 = n3;
 		c++;
-		if (c < 50)
+		if (c < 98)
 		{
 			printf(", ");
 		}
