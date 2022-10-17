@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
 * main - a fizz buzz function.
@@ -31,4 +32,5 @@ int main(void)
 		n++;
 	}
 	printf("\n");
+	return (0);
 }
