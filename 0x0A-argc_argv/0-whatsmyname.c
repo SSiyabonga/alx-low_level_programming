@@ -9,9 +9,9 @@
 * Return: 0
 */
 
-int main (int agrc, char *agrv[])
+int main(int agrc, char *agrv[])
 {
-	(void) argc;
+	(void)agrc;
 	printf("%s\n", agrv[0]);
 	return (0);
 }
