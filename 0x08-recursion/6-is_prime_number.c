@@ -1,4 +1,7 @@
 #include "main.h"
+#include <stdio.h>
+
+int check_prime(int n, int i);
 
 /**
 * is_prime_number - a function that returns 1 if a n is a prime number
