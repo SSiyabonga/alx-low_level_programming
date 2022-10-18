@@ -2,8 +2,8 @@
 
 /**
 * main - a function that prints all the arguments it receives
-* @argc - the number of arguments.
-* @argv - an array of arguments.
+* @argc: the number of arguments.
+* @argv: an array of arguments.
 *
 * Return: 0.
 **/
