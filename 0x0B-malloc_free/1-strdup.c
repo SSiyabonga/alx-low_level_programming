@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
-#include <stdio.h>
-#include <mem.h>
+
 /**
 * _strdup - a function that returns a pointer to the copy of a string.
 *
@@ -12,7 +11,8 @@
 
 char *_strdup(char *str)
 {
-	int i, d = 0;
+	int i = 1, d = 0;
+	char *dup;
 
 	if (str == NULL)
 	{
@@ -23,13 +23,14 @@ char *_strdup(char *str)
 		continue;
 	}
 
-	*dup = malloc(sizeof(char) * i);
+	dup = malloc((sizeof(char) * i) + 1);
 
 	while (d < i)
 	{
 		dup[d] = str[d];
 		d++;
 	}
-	free(dup);
+	
+	dup[d] = '\0';
 	return (dup);
 }
