@@ -1,4 +1,4 @@
 #ifndef SUMX
-#define sumx
+#define SUMX
 #define SUM(x, y) ((x) + (y))
 #endif
