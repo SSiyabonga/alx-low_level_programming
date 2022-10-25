@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
 * string_nconcat- a function that adds n bytes of string s2 to s1.
 *
 * @s1: the first string.
