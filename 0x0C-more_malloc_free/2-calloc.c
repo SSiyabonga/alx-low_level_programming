@@ -11,18 +11,28 @@
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	int *caloc;
+	int i = 0, len;
+	char *caloc;
+
+	len = nmemb * size;
 
 	if (nmemb == 0 || size == 0)
 	{
 		return (NULL);
 	}
 
-	caloc = malloc(nmemb * size);
+	caloc = malloc(len);
 
 	if (caloc == NULL)
 	{
 		return (NULL);
 	}
+
+	while (i < len)
+	{
+		caloc[i] = 0;
+		i++;
+	}
+
 	return (caloc);
 }
