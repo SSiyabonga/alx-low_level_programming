@@ -10,11 +10,15 @@
 * Return: nothing
 */
 
-char * _copy(char *name);
+char *_copy(char *strings);
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *ndog;
 
+	if (name == NULL || owner == NULL)
+	{
+			return (NULL);
+	}
 	ndog = malloc(sizeof(dog_t));
 
 	if (ndog != NULL)
@@ -46,12 +50,12 @@ dog_t *new_dog(char *name, float age, char *owner)
 * Return: nothing
 */
 
-char *_copy(char *name)
+char *_copy(char *strings)
 {
 	int i, j;
 	char *namecpy;
 
-	for (i = 0; name[i] != '\0'; i++)
+	for (i = 0; strings[i] != '\0'; i++)
 	{
 		continue;
 	}
@@ -65,7 +69,7 @@ char *_copy(char *name)
 
 	for (j = 0; j < i; j++)
 	{
-		namecpy[j] = name[j];
+		namecpy[j] = strings[j];
 	}
 	namecpy[j] = '\0';
 	return (namecpy);
